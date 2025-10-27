@@ -1,8 +1,9 @@
 git clone URL
 git init -b main
 git add ...
-git commit ...
+git commit -m "..."
 git remote add origin https..git
-git push origin branchName
+git config --global credential.helper store
+git push -u origin main
 
 git pull ?
